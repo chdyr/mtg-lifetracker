@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF25F26B25C1725100E0ABF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25F26A25C1725100E0ABF9 /* AppDelegate.swift */; };
+		CF25F26D25C1725100E0ABF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25F26C25C1725100E0ABF9 /* SceneDelegate.swift */; };
+		CF25F26F25C1725100E0ABF9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25F26E25C1725100E0ABF9 /* GameViewController.swift */; };
+		CF25F27225C1725100E0ABF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25F27025C1725100E0ABF9 /* Main.storyboard */; };
+		CF25F27425C1725200E0ABF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25F27325C1725200E0ABF9 /* Assets.xcassets */; };
+		CF25F27725C1725200E0ABF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25F27525C1725200E0ABF9 /* LaunchScreen.storyboard */; };
+		CF4A8B0D25C2C509002981D0 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A8B0C25C2C509002981D0 /* GameManager.swift */; };
+		CF4A8B1225C2C5F9002981D0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A8B1125C2C5F9002981D0 /* Player.swift */; };
+		CF5C4AEC25CAD174009AE8DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C4AEB25CAD174009AE8DC /* Constants.swift */; };
+		CF8B352325C995BA0020DD23 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8B352225C995BA0020DD23 /* DiceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF25F26725C1725100E0ABF9 /* MTGGameTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGGameTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF25F26A25C1725100E0ABF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF25F26C25C1725100E0ABF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF25F26E25C1725100E0ABF9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CF25F27125C1725100E0ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF25F27325C1725200E0ABF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF25F27625C1725200E0ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF25F27825C1725200E0ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4A8B0C25C2C509002981D0 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		CF4A8B1125C2C5F9002981D0 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CF5C4AEB25CAD174009AE8DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF8B352225C995BA0020DD23 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF25F26425C1725100E0ABF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF25F25E25C1725100E0ABF9 = {
+			isa = PBXGroup;
+			children = (
+				CF25F26925C1725100E0ABF9 /* MTGGameTracker */,
+				CF25F26825C1725100E0ABF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF25F26825C1725100E0ABF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF25F26725C1725100E0ABF9 /* MTGGameTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF25F26925C1725100E0ABF9 /* MTGGameTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CF25F26A25C1725100E0ABF9 /* AppDelegate.swift */,
+				CF25F26C25C1725100E0ABF9 /* SceneDelegate.swift */,
+				CF4A8B0F25C2C51C002981D0 /* Models */,
+				CF25F28525C1AFB600E0ABF9 /* Controllers */,
+				CF25F28725C1AFD900E0ABF9 /* Views */,
+				CF25F27325C1725200E0ABF9 /* Assets.xcassets */,
+				CF25F27525C1725200E0ABF9 /* LaunchScreen.storyboard */,
+				CF25F27825C1725200E0ABF9 /* Info.plist */,
+				CF5C4AEB25CAD174009AE8DC /* Constants.swift */,
+			);
+			path = MTGGameTracker;
+			sourceTree = "<group>";
+		};
+		CF25F28525C1AFB600E0ABF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF25F26E25C1725100E0ABF9 /* GameViewController.swift */,
+				CF8B352225C995BA0020DD23 /* DiceViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CF25F28725C1AFD900E0ABF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF25F27025C1725100E0ABF9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF4A8B0F25C2C51C002981D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF4A8B0C25C2C509002981D0 /* GameManager.swift */,
+				CF4A8B1125C2C5F9002981D0 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF25F26625C1725100E0ABF9 /* MTGGameTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF25F27B25C1725200E0ABF9 /* Build configuration list for PBXNativeTarget "MTGGameTracker" */;
+			buildPhases = (
+				CF25F26325C1725100E0ABF9 /* Sources */,
+				CF25F26425C1725100E0ABF9 /* Frameworks */,
+				CF25F26525C1725100E0ABF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTGGameTracker;
+			productName = MTGGameTracker;
+			productReference = CF25F26725C1725100E0ABF9 /* MTGGameTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF25F25F25C1725100E0ABF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CF25F26625C1725100E0ABF9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CF25F26225C1725100E0ABF9 /* Build configuration list for PBXProject "MTGGameTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF25F25E25C1725100E0ABF9;
+			productRefGroup = CF25F26825C1725100E0ABF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF25F26625C1725100E0ABF9 /* MTGGameTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF25F26525C1725100E0ABF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF25F27725C1725200E0ABF9 /* LaunchScreen.storyboard in Resources */,
+				CF25F27425C1725200E0ABF9 /* Assets.xcassets in Resources */,
+				CF25F27225C1725100E0ABF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF25F26325C1725100E0ABF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4A8B0D25C2C509002981D0 /* GameManager.swift in Sources */,
+				CF8B352325C995BA0020DD23 /* DiceViewController.swift in Sources */,
+				CF25F26F25C1725100E0ABF9 /* GameViewController.swift in Sources */,
+				CF25F26B25C1725100E0ABF9 /* AppDelegate.swift in Sources */,
+				CF5C4AEC25CAD174009AE8DC /* Constants.swift in Sources */,
+				CF4A8B1225C2C5F9002981D0 /* Player.swift in Sources */,
+				CF25F26D25C1725100E0ABF9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF25F27025C1725100E0ABF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF25F27125C1725100E0ABF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF25F27525C1725200E0ABF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF25F27625C1725200E0ABF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF25F27925C1725200E0ABF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF25F27A25C1725200E0ABF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF25F27C25C1725200E0ABF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MTGGameTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinadyrehauge.MTGGameTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF25F27D25C1725200E0ABF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MTGGameTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinadyrehauge.MTGGameTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF25F26225C1725100E0ABF9 /* Build configuration list for PBXProject "MTGGameTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF25F27925C1725200E0ABF9 /* Debug */,
+				CF25F27A25C1725200E0ABF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF25F27B25C1725200E0ABF9 /* Build configuration list for PBXNativeTarget "MTGGameTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF25F27C25C1725200E0ABF9 /* Debug */,
+				CF25F27D25C1725200E0ABF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF25F25F25C1725100E0ABF9 /* Project object */;
+}
